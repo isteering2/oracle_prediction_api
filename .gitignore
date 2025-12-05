@@ -1,0 +1,60 @@
+# Dépendances
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Fichiers de build
+build/
+dist/
+.output/
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+.env.test
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Cache AdonisJS
+.adonisjs/
+ace-manifest.json
+
+# Fichiers de test
+coverage/
+.nyc_output/
+
+# Fichiers de base de données locale
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads (si tu as un dossier uploads)
+uploads/
+public/uploads/
+
+# Fichiers système
+*.pid
+*.seed
+*.pid.lock
