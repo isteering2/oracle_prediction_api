@@ -12,5 +12,4 @@ Cette API reçoit les données d’un formulaire (nom, email, sujet, message) et
 - API écrite en TypeScript 
 
 ```bash
-git clone https://github.com/<ton-user>/<ton-repo>.git
-cd <ton-repo>
+git clone https://github.com/isteering2/oracle_prediction_api
