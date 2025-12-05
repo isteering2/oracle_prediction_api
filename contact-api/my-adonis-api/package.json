@@ -1,0 +1,23 @@
+{
+  "name": "my-adonis-api",
+  "version": "1.0.0",
+  "description": "A simple API project using Adonis framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ace serve --watch",
+    "build": "tsc",
+    "dev": "node ace serve --watch"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^5.0.0",
+    "@adonisjs/http-server": "^5.0.0",
+    "@adonisjs/bodyparser": "^5.0.0"
+  },
+  "devDependencies": {
+    "@adonisjs/vow": "^5.0.0",
+    "typescript": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

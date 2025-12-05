@@ -1,0 +1,22 @@
+{
+  "type": "project",
+  "name": "my-adonis-api",
+  "app": {
+    "name": "My Adonis API",
+    "url": "http://localhost:3333",
+    "env": "development"
+  },
+  "http": {
+    "middleware": [
+      "global",
+      "cors",
+      "bodyParser"
+    ]
+  },
+  "database": {
+    "connection": "sqlite",
+    "migrations": {
+      "table": "adonis_migrations"
+    }
+  }
+}

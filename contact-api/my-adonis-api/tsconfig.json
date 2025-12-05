@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build",
+    "rootDir": "app",
+    "baseUrl": ".",
+    "paths": {
+      "@ioc:*": ["./node_modules/@ioc/*"],
+      "@/*": ["app/*"]
+    }
+  },
+  "include": ["app/**/*.ts", "start/**/*.ts", "ace"],
+  "exclude": ["node_modules", "build"]
+}

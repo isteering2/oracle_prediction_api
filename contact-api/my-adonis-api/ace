@@ -1,0 +1,5 @@
+export default class Ace {
+  public static command() {
+    // Define your custom commands here
+  }
+}
